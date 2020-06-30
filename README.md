@@ -1,1 +1,3 @@
-# MySmartWatch
+WatchMe
+
+My Personal SmartWatch
