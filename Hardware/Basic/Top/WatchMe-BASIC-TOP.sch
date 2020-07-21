@@ -272,7 +272,7 @@
 </library>
 <library name="LinnesLab-Passives">
 <packages>
-<package name="C0402" urn="urn:adsk.eagle:footprint:15402269/1">
+<package name="C0402">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;</description>
 <wire x1="-0.245" y1="0.224" x2="0.245" y2="0.224" width="0.1524" layer="51"/>
 <wire x1="0.245" y1="-0.224" x2="-0.245" y2="-0.224" width="0.1524" layer="51"/>
@@ -288,7 +288,7 @@
 <rectangle x1="0.2588" y1="-0.3048" x2="0.5588" y2="0.2951" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
 </package>
-<package name="C0603" urn="urn:adsk.eagle:footprint:15661990/1" locally_modified="yes">
+<package name="C0603">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;</description>
 <wire x1="-1.473" y1="0.5766" x2="1.473" y2="0.5766" width="0.0508" layer="39"/>
 <wire x1="1.473" y1="0.5766" x2="1.473" y2="-0.5766" width="0.0508" layer="39"/>
@@ -298,13 +298,13 @@
 <wire x1="-0.356" y1="-0.419" x2="0.356" y2="-0.419" width="0.1016" layer="51"/>
 <smd name="1" x="-0.85" y="0" dx="1.1" dy="1" layer="1"/>
 <smd name="2" x="0.85" y="0" dx="1.1" dy="1" layer="1"/>
-<text x="-0.635" y="0.635" size="0.7112" layer="25">&gt;NAME</text>
-<text x="-0.635" y="-1.905" size="0.7112" layer="27">&gt;VALUE</text>
+<text x="-0.635" y="0.635" size="1.27" layer="25">&gt;NAME</text>
+<text x="-0.635" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
 <rectangle x1="-0.8382" y1="-0.4699" x2="-0.3381" y2="0.4801" layer="51"/>
 <rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
 </package>
-<package name="C0805" urn="urn:adsk.eagle:footprint:15662011/1" locally_modified="yes">
+<package name="C0805">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;</description>
 <wire x1="-1.973" y1="0.983" x2="1.973" y2="0.983" width="0.0508" layer="39"/>
 <wire x1="1.973" y1="-0.983" x2="-1.973" y2="-0.983" width="0.0508" layer="39"/>
@@ -314,22 +314,11 @@
 <wire x1="1.973" y1="0.983" x2="1.973" y2="-0.983" width="0.0508" layer="39"/>
 <smd name="1" x="-0.95" y="0" dx="1.3" dy="1.5" layer="1"/>
 <smd name="2" x="0.95" y="0" dx="1.3" dy="1.5" layer="1"/>
-<text x="-1.27" y="1.27" size="0.7112" layer="25">&gt;NAME</text>
-<text x="-1.27" y="-1.905" size="0.7112" layer="27">&gt;VALUE</text>
+<text x="-1.27" y="1.27" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.27" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
 <rectangle x1="-1.0922" y1="-0.7239" x2="-0.3421" y2="0.7262" layer="51"/>
 <rectangle x1="0.3556" y1="-0.7239" x2="1.1057" y2="0.7262" layer="51"/>
 <rectangle x1="-0.1001" y1="-0.4001" x2="0.1001" y2="0.4001" layer="35"/>
-</package>
-<package name="C0201" urn="urn:adsk.eagle:footprint:15818462/1" locally_modified="yes">
-<description>Source: http://www.avxcorp.com/docs/catalogs/cx5r.pdf</description>
-<smd name="1" x="-0.25" y="0" dx="0.25" dy="0.35" layer="1"/>
-<smd name="2" x="0.25" y="0" dx="0.25" dy="0.35" layer="1"/>
-<text x="-0.635" y="0.381" size="0.7112" layer="25">&gt;NAME</text>
-<text x="-0.635" y="-1.016" size="0.7112" layer="27">&gt;VALUE</text>
-<rectangle x1="-0.3" y1="-0.15" x2="-0.15" y2="0.15" layer="51"/>
-<rectangle x1="0.15" y1="-0.15" x2="0.3" y2="0.15" layer="51"/>
-<rectangle x1="-0.15" y1="0.1" x2="0.15" y2="0.15" layer="51"/>
-<rectangle x1="-0.15" y1="-0.15" x2="0.15" y2="-0.1" layer="51"/>
 </package>
 <package name="C050-030X075">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -560,32 +549,35 @@ Source: http://www.vishay.com/docs/20008/dcrcw.pdf</description>
 <rectangle x1="0.15" y1="-0.15" x2="0.3" y2="0.15" layer="51"/>
 <rectangle x1="-0.15" y1="-0.15" x2="0.15" y2="0.15" layer="21"/>
 </package>
+<package name="C0201">
+<description>Source: http://www.avxcorp.com/docs/catalogs/cx5r.pdf</description>
+<smd name="1" x="-0.25" y="0" dx="0.25" dy="0.35" layer="1"/>
+<smd name="2" x="0.25" y="0" dx="0.25" dy="0.35" layer="1"/>
+<text x="-0.635" y="0.635" size="1.27" layer="25">&gt;NAME</text>
+<text x="-0.635" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.3" y1="-0.15" x2="-0.15" y2="0.15" layer="51"/>
+<rectangle x1="0.15" y1="-0.15" x2="0.3" y2="0.15" layer="51"/>
+<rectangle x1="-0.15" y1="0.1" x2="0.15" y2="0.15" layer="51"/>
+<rectangle x1="-0.15" y1="-0.15" x2="0.15" y2="-0.1" layer="51"/>
+</package>
+<package name="C0402-SMALLER">
+<description>&lt;b&gt;CAPACITOR&lt;/b&gt;</description>
+<wire x1="-0.245" y1="0.224" x2="0.245" y2="0.224" width="0.1524" layer="51"/>
+<wire x1="0.245" y1="-0.224" x2="-0.245" y2="-0.224" width="0.1524" layer="51"/>
+<wire x1="-0.7174" y1="0.383" x2="0.7174" y2="0.383" width="0.0508" layer="39"/>
+<wire x1="0.7174" y1="0.383" x2="0.7174" y2="-0.383" width="0.0508" layer="39"/>
+<wire x1="0.7174" y1="-0.383" x2="-0.7174" y2="-0.383" width="0.0508" layer="39"/>
+<wire x1="-0.7174" y1="-0.383" x2="-0.7174" y2="0.383" width="0.0508" layer="39"/>
+<smd name="1" x="-0.45" y="0" dx="0.45" dy="0.65" layer="1"/>
+<smd name="2" x="0.45" y="0" dx="0.45" dy="0.65" layer="1"/>
+<text x="-0.635" y="0.635" size="1.27" layer="25">&gt;NAME</text>
+<text x="-0.635" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.554" y1="-0.3048" x2="-0.254" y2="0.2951" layer="51"/>
+<rectangle x1="0.2588" y1="-0.3048" x2="0.5588" y2="0.2951" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
+</package>
 </packages>
 <packages3d>
-<package3d name="C0402" urn="urn:adsk.eagle:package:15402268/2" type="model">
-<description>&lt;b&gt;CAPACITOR&lt;/b&gt;</description>
-<packageinstances>
-<packageinstance name="C0402"/>
-</packageinstances>
-</package3d>
-<package3d name="C0603" urn="urn:adsk.eagle:package:15661989/2" type="model">
-<description>&lt;b&gt;CAPACITOR&lt;/b&gt;</description>
-<packageinstances>
-<packageinstance name="C0603"/>
-</packageinstances>
-</package3d>
-<package3d name="C0805" urn="urn:adsk.eagle:package:15662010/2" type="model">
-<description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;</description>
-<packageinstances>
-<packageinstance name="C0805"/>
-</packageinstances>
-</package3d>
-<package3d name="C0201" urn="urn:adsk.eagle:package:15818461/2" type="model">
-<description>Source: http://www.avxcorp.com/docs/catalogs/cx5r.pdf</description>
-<packageinstances>
-<packageinstance name="C0201"/>
-</packageinstances>
-</package3d>
 <package3d name="L0402" urn="urn:adsk.eagle:package:15664735/2" type="model">
 <description>&lt;b&gt;INDUCTOR&lt;/b&gt;</description>
 <packageinstances>
@@ -668,9 +660,6 @@ Source: http://www.vishay.com/docs/20008/dcrcw.pdf</description>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:15402268/2"/>
-</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -680,9 +669,6 @@ Source: http://www.vishay.com/docs/20008/dcrcw.pdf</description>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:15661989/2"/>
-</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -692,9 +678,6 @@ Source: http://www.vishay.com/docs/20008/dcrcw.pdf</description>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:15662010/2"/>
-</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -704,9 +687,6 @@ Source: http://www.vishay.com/docs/20008/dcrcw.pdf</description>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:15818461/2"/>
-</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -721,6 +701,15 @@ Source: http://www.vishay.com/docs/20008/dcrcw.pdf</description>
 </technologies>
 </device>
 <device name="C025-030X050" package="C025-030X050">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="0402-SMALLER" package="C0402-SMALLER">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -5484,6 +5473,56 @@ http://ww1.microchip.com/downloads/en/DeviceDoc/MIC550X.pdf&lt;/il&gt;
 </deviceset>
 </devicesets>
 </library>
+<library name="LinnesLab-Sensors">
+<packages>
+<package name="LSM6DS3_CAST">
+<wire x1="-2.54" y1="-2.54" x2="2.54" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="2.54" y1="-2.54" x2="2.54" y2="2.54" width="0.127" layer="21"/>
+<wire x1="2.54" y1="2.54" x2="-2.54" y2="2.54" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="-2.54" width="0.127" layer="21"/>
+<smd name="2" x="-2.54" y="-1.27" dx="1.27" dy="0.635" layer="1" roundness="100" rot="R90"/>
+<smd name="4" x="2.54" y="1.27" dx="1.27" dy="0.635" layer="1" roundness="100" rot="R90"/>
+<smd name="3" x="2.54" y="-1.27" dx="1.27" dy="0.635" layer="1" roundness="100" rot="R90"/>
+<smd name="1" x="-2.54" y="1.27" dx="1.27" dy="0.635" layer="1" roundness="100" rot="R90"/>
+<text x="-2.54" y="3.175" size="1.27" layer="25">&gt;Name</text>
+<text x="-2.54" y="-4.445" size="1.27" layer="27">&gt;Value</text>
+</package>
+</packages>
+<symbols>
+<symbol name="LSM6DS3_CAST">
+<wire x1="-7.62" y1="5.08" x2="7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="5.08" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-5.08" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-5.08" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
+<pin name="GND" x="-12.7" y="2.54" length="middle"/>
+<pin name="VCC" x="-12.7" y="-2.54" length="middle"/>
+<pin name="SDA" x="12.7" y="2.54" length="middle" rot="R180"/>
+<pin name="SCL" x="12.7" y="-2.54" length="middle" rot="R180"/>
+<text x="-7.62" y="5.08" size="1.778" layer="95">&gt;Name</text>
+<text x="-7.62" y="-7.62" size="1.778" layer="96">&gt;Value</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="LSM6DS3_CAST">
+<gates>
+<gate name="G$1" symbol="LSM6DS3_CAST" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="LSM6DS3_CAST">
+<connects>
+<connect gate="G$1" pin="GND" pad="1"/>
+<connect gate="G$1" pin="SCL" pad="3"/>
+<connect gate="G$1" pin="SDA" pad="4"/>
+<connect gate="G$1" pin="VCC" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -5499,10 +5538,10 @@ http://ww1.microchip.com/downloads/en/DeviceDoc/MIC550X.pdf&lt;/il&gt;
 <part name="GND16" library="LinnesLab-Symbols" deviceset="GND" device=""/>
 <part name="GND19" library="LinnesLab-Symbols" deviceset="GND" device=""/>
 <part name="GND20" library="LinnesLab-Symbols" deviceset="GND" device=""/>
-<part name="C7" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661989/2" value="1u"/>
-<part name="C8" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661989/2"/>
-<part name="C9" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661989/2"/>
-<part name="C12" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0805" package3d_urn="urn:adsk.eagle:package:15662010/2" value="10u"/>
+<part name="C7" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" value="1u"/>
+<part name="C8" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603"/>
+<part name="C9" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603"/>
+<part name="C12" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0805" value="10u"/>
 <part name="L2" library="LinnesLab-Passives" deviceset="INDUCTOR" device="0603" override_package3d_urn="urn:adsk.eagle:package:18592195/2" override_package_urn="urn:adsk.eagle:footprint:18592196/1" value="10u"/>
 <part name="SUPPLY3" library="LinnesLab-Symbols" deviceset="3.3V" device=""/>
 <part name="GND21" library="LinnesLab-Symbols" deviceset="GND" device=""/>
@@ -5514,7 +5553,7 @@ http://ww1.microchip.com/downloads/en/DeviceDoc/MIC550X.pdf&lt;/il&gt;
 <part name="R4" library="LinnesLab-Passives" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661944/2" value="1k"/>
 <part name="XTAL2" library="LinnesLab-Clocks" deviceset="CRYSTAL" device="ECS-.327-12.5-12-C-TR" package3d_urn="urn:adsk.eagle:package:18579459/2" value="32.768kHz"/>
 <part name="R5" library="LinnesLab-Passives" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661944/2" value="10k"/>
-<part name="C14" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661989/2" value="100n"/>
+<part name="C14" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" value="100n"/>
 <part name="D1" library="LinnesLab-DiscreteSemi" deviceset="SCHOTTKY" device="-USC" package3d_urn="urn:adsk.eagle:package:15664784/2"/>
 <part name="SUPPLY4" library="LinnesLab-Symbols" deviceset="3.3V" device=""/>
 <part name="GND28" library="LinnesLab-Symbols" deviceset="GND" device=""/>
@@ -5528,12 +5567,12 @@ http://ww1.microchip.com/downloads/en/DeviceDoc/MIC550X.pdf&lt;/il&gt;
 <part name="LED3" library="LinnesLab-LED" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:18593052/2" value="RED"/>
 <part name="LED4" library="LinnesLab-LED" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:18593052/2" value="BLUE"/>
 <part name="GND7" library="LinnesLab-Symbols" deviceset="GND" device=""/>
-<part name="C13" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0402" package3d_urn="urn:adsk.eagle:package:15402268/2" value="2.2uF"/>
-<part name="C15" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0402" package3d_urn="urn:adsk.eagle:package:15402268/2" value="2.2uF"/>
-<part name="C16" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661989/2" value="10uF"/>
-<part name="C17" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0402" package3d_urn="urn:adsk.eagle:package:15402268/2" value="2.2uF"/>
-<part name="C18" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0402" package3d_urn="urn:adsk.eagle:package:15402268/2" value="2.2uF"/>
-<part name="C19" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0402" package3d_urn="urn:adsk.eagle:package:15402268/2" value="2.2uF"/>
+<part name="C13" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0402" value="2.2uF"/>
+<part name="C15" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0402" value="2.2uF"/>
+<part name="C16" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" value="10uF"/>
+<part name="C17" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0402" value="2.2uF"/>
+<part name="C18" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0402" value="2.2uF"/>
+<part name="C19" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0402" value="2.2uF"/>
 <part name="U3" library="LinnesLab-Displays" deviceset="DISP_OLED_UG-2864HSWEG01" device="-NO-WRAPAROUND"/>
 <part name="GND8" library="LinnesLab-Symbols" deviceset="GND" device=""/>
 <part name="GND9" library="LinnesLab-Symbols" deviceset="GND" device=""/>
@@ -5552,10 +5591,10 @@ http://ww1.microchip.com/downloads/en/DeviceDoc/MIC550X.pdf&lt;/il&gt;
 <part name="D5" library="LinnesLab-DiscreteSemi" deviceset="SCHOTTKY" device="-USC" package3d_urn="urn:adsk.eagle:package:15664784/2"/>
 <part name="USB2" library="LinnesLab-Connectors" deviceset="USB.MICRO" device="-BIGGERPADS"/>
 <part name="J2" library="LinnesLab-Connectors" deviceset="CONN_02" device=""/>
-<part name="C5" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661989/2" value="1u"/>
-<part name="C6" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661989/2" value="1u"/>
-<part name="C20" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661989/2" value="4.7u"/>
-<part name="C21" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661989/2" value="4.7u"/>
+<part name="C5" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" value="1u"/>
+<part name="C6" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" value="1u"/>
+<part name="C20" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" value="4.7u"/>
+<part name="C21" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" value="4.7u"/>
 <part name="R11" library="LinnesLab-Passives" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661944/2"/>
 <part name="R12" library="LinnesLab-Passives" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661944/2" value="100k"/>
 <part name="GND34" library="LinnesLab-Symbols" deviceset="GND" device=""/>
@@ -5579,7 +5618,7 @@ http://ww1.microchip.com/downloads/en/DeviceDoc/MIC550X.pdf&lt;/il&gt;
 <part name="GND4" library="LinnesLab-Symbols" deviceset="GND" device=""/>
 <part name="GND5" library="LinnesLab-Symbols" deviceset="GND" device=""/>
 <part name="SUPPLY10" library="LinnesLab-Symbols" deviceset="3.3V" device=""/>
-<part name="C2" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661989/2" value="1u"/>
+<part name="C2" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" value="1u"/>
 <part name="SUPPLY11" library="LinnesLab-Symbols" deviceset="3.3V" device=""/>
 <part name="XTAL3" library="LinnesLab-Clocks" deviceset="CRYSTAL" device="ECS-.327-12.5-12-C-TR" package3d_urn="urn:adsk.eagle:package:18579459/2" value="32.7680kHz">
 <attribute name="FREQ" value="32.7680KHZ"/>
@@ -5607,10 +5646,10 @@ http://ww1.microchip.com/downloads/en/DeviceDoc/MIC550X.pdf&lt;/il&gt;
 <part name="SUPPLY22" library="LinnesLab-Symbols" deviceset="3.3V" device=""/>
 <part name="SUPPLY23" library="LinnesLab-Symbols" deviceset="3.3V" device=""/>
 <part name="SUPPLY24" library="LinnesLab-Symbols" deviceset="3.3V" device=""/>
-<part name="C22" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661989/2" value="100n"/>
+<part name="C22" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" value="100n"/>
 <part name="GND46" library="LinnesLab-Symbols" deviceset="GND" device=""/>
-<part name="C23" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661989/2" value="47p"/>
-<part name="C24" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661989/2" value="47p"/>
+<part name="C23" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" value="47p"/>
+<part name="C24" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" value="47p"/>
 <part name="GND47" library="LinnesLab-Symbols" deviceset="GND" device=""/>
 <part name="GND48" library="LinnesLab-Symbols" deviceset="GND" device=""/>
 <part name="U5" library="LinnesLab-DigitalIC" deviceset="FT231X" device="S"/>
@@ -5621,6 +5660,12 @@ http://ww1.microchip.com/downloads/en/DeviceDoc/MIC550X.pdf&lt;/il&gt;
 <part name="R8" library="LinnesLab-Passives" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661944/2" value="0"/>
 <part name="R9" library="LinnesLab-Passives" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661944/2" value="0"/>
 <part name="J3" library="LinnesLab-Connectors" deviceset="CONN_06" device="1.27MM"/>
+<part name="IMU1" library="LinnesLab-Sensors" deviceset="LSM6DS3_CAST" device=""/>
+<part name="GND17" library="LinnesLab-Symbols" deviceset="GND" device=""/>
+<part name="SUPPLY18" library="LinnesLab-Symbols" deviceset="3.3V" device=""/>
+<part name="C3" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" value="100n"/>
+<part name="GND18" library="LinnesLab-Symbols" deviceset="GND" device=""/>
+<part name="SUPPLY19" library="LinnesLab-Symbols" deviceset="3.3V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -5735,7 +5780,7 @@ if desired</text>
 <text x="259.08" y="30.48" size="5.08" layer="95" font="vector" ratio="15">Buttons</text>
 <text x="246.38" y="-45.72" size="5.08" layer="95" font="vector" ratio="15">Real-Time Clock</text>
 <text x="276.86" y="165.1" size="5.08" layer="95" font="vector" ratio="15">OLED</text>
-<text x="-73.66" y="68.58" size="5.08" layer="95" font="vector" ratio="15">Cortex Debugger/Programmer</text>
+<text x="-2.54" y="71.12" size="5.08" layer="95" font="vector" ratio="15">Cortex Debugger/Programmer</text>
 <text x="142.24" y="33.02" size="5.08" layer="95" font="vector" ratio="15">RTC</text>
 <wire x1="-165.1" y1="299.72" x2="345.44" y2="299.72" width="1.27" layer="94"/>
 <wire x1="345.44" y1="299.72" x2="345.44" y2="-149.86" width="1.27" layer="94"/>
@@ -5780,7 +5825,7 @@ Analog Outputs:</text>
 <text x="132.08" y="182.88" size="5.08" layer="95" font="vector" ratio="15">Notes</text>
 <wire x1="93.98" y1="195.58" x2="93.98" y2="289.56" width="1.27" layer="97" style="longdash"/>
 <wire x1="93.98" y1="193.04" x2="335.28" y2="193.04" width="1.27" layer="97" style="longdash"/>
-<wire x1="-154.94" y1="104.14" x2="93.98" y2="104.14" width="1.27" layer="97" style="longdash"/>
+<wire x1="-154.94" y1="104.14" x2="-30.48" y2="104.14" width="1.27" layer="97" style="longdash"/>
 <text x="132.08" y="152.4" size="1.9304" layer="95">Pins that connect from TOP to BOTTOM:
 3.3V
 GND
@@ -5812,7 +5857,10 @@ Buttons:
 D11/SW1 (Input)
 D15/SW2 (Input)
 </text>
+<wire x1="-30.48" y1="104.14" x2="93.98" y2="104.14" width="1.27" layer="97" style="longdash"/>
 <wire x1="93.98" y1="-12.7" x2="93.98" y2="193.04" width="1.27" layer="97" style="longdash"/>
+<wire x1="-30.48" y1="104.14" x2="-30.48" y2="-12.7" width="1.27" layer="97" style="longdash"/>
+<text x="-104.14" y="63.5" size="5.08" layer="95" font="vector" ratio="15">LSM6DS3</text>
 </plain>
 <instances>
 <instance part="GND14" gate="G$1" x="-96.52" y="195.58" smashed="yes">
@@ -5898,15 +5946,15 @@ D15/SW2 (Input)
 <instance part="GND28" gate="G$1" x="-78.74" y="264.16" smashed="yes">
 <attribute name="VALUE" x="-78.74" y="263.906" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="SUPPLY5" gate="G$1" x="-53.34" y="48.26" smashed="yes">
-<attribute name="VALUE" x="-53.34" y="51.054" size="1.778" layer="96" align="bottom-center"/>
+<instance part="SUPPLY5" gate="G$1" x="17.78" y="50.8" smashed="yes">
+<attribute name="VALUE" x="17.78" y="53.594" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="GND29" gate="G$1" x="-53.34" y="27.94" smashed="yes">
-<attribute name="VALUE" x="-53.34" y="27.686" size="1.778" layer="96" align="top-center"/>
+<instance part="GND29" gate="G$1" x="17.78" y="30.48" smashed="yes">
+<attribute name="VALUE" x="17.78" y="30.226" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="CORTEX1" gate="G$1" x="-35.56" y="40.64" smashed="yes">
-<attribute name="NAME" x="-48.26" y="48.514" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="-48.26" y="30.734" size="1.778" layer="96" font="vector"/>
+<instance part="CORTEX1" gate="G$1" x="35.56" y="43.18" smashed="yes">
+<attribute name="NAME" x="22.86" y="51.054" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="22.86" y="33.274" size="1.778" layer="96" font="vector"/>
 </instance>
 <instance part="SW3" gate="G$1" x="-88.9" y="256.54" smashed="yes">
 <attribute name="NAME" x="-91.44" y="254" size="1.27" layer="95"/>
@@ -6241,6 +6289,26 @@ D15/SW2 (Input)
 <attribute name="VALUE" x="157.48" y="66.294" size="1.778" layer="96" font="vector"/>
 <attribute name="NAME" x="157.48" y="86.868" size="1.778" layer="95" font="vector"/>
 </instance>
+<instance part="IMU1" gate="G$1" x="-88.9" y="45.72" smashed="yes">
+<attribute name="NAME" x="-96.52" y="50.8" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-96.52" y="38.1" size="1.778" layer="96"/>
+</instance>
+<instance part="GND17" gate="G$1" x="-106.68" y="38.1" smashed="yes">
+<attribute name="VALUE" x="-106.68" y="37.846" size="1.778" layer="96" align="top-center"/>
+</instance>
+<instance part="SUPPLY18" gate="G$1" x="-104.14" y="50.8" smashed="yes">
+<attribute name="VALUE" x="-104.14" y="53.594" size="1.778" layer="96" align="bottom-center"/>
+</instance>
+<instance part="C3" gate="G$1" x="-114.3" y="48.26" smashed="yes" rot="R180">
+<attribute name="NAME" x="-115.824" y="45.339" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="-115.824" y="50.419" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="GND18" gate="G$1" x="-114.3" y="38.1" smashed="yes">
+<attribute name="VALUE" x="-114.3" y="37.846" size="1.778" layer="96" align="top-center"/>
+</instance>
+<instance part="SUPPLY19" gate="G$1" x="-114.3" y="53.34" smashed="yes">
+<attribute name="VALUE" x="-114.3" y="56.134" size="1.778" layer="96" align="bottom-center"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -6326,18 +6394,18 @@ D15/SW2 (Input)
 <pinref part="SW4" gate="G$1" pin="B"/>
 </segment>
 <segment>
-<wire x1="-50.8" y1="35.56" x2="-53.34" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="38.1" x2="17.78" y2="38.1" width="0.1524" layer="91"/>
 <pinref part="GND29" gate="G$1" pin="GND"/>
-<wire x1="-53.34" y1="35.56" x2="-53.34" y2="30.48" width="0.1524" layer="91"/>
-<wire x1="-50.8" y1="38.1" x2="-53.34" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="-53.34" y1="38.1" x2="-53.34" y2="35.56" width="0.1524" layer="91"/>
-<junction x="-53.34" y="35.56"/>
-<wire x1="-50.8" y1="40.64" x2="-53.34" y2="40.64" width="0.1524" layer="91"/>
-<wire x1="-53.34" y1="40.64" x2="-53.34" y2="38.1" width="0.1524" layer="91"/>
-<junction x="-53.34" y="38.1"/>
-<wire x1="-50.8" y1="43.18" x2="-53.34" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="-53.34" y1="43.18" x2="-53.34" y2="40.64" width="0.1524" layer="91"/>
-<junction x="-53.34" y="40.64"/>
+<wire x1="17.78" y1="38.1" x2="17.78" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="40.64" x2="17.78" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="40.64" x2="17.78" y2="38.1" width="0.1524" layer="91"/>
+<junction x="17.78" y="38.1"/>
+<wire x1="20.32" y1="43.18" x2="17.78" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="43.18" x2="17.78" y2="40.64" width="0.1524" layer="91"/>
+<junction x="17.78" y="40.64"/>
+<wire x1="20.32" y1="45.72" x2="17.78" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="45.72" x2="17.78" y2="43.18" width="0.1524" layer="91"/>
+<junction x="17.78" y="43.18"/>
 <pinref part="CORTEX1" gate="G$1" pin="GND@3"/>
 <pinref part="CORTEX1" gate="G$1" pin="GND@5"/>
 <pinref part="CORTEX1" gate="G$1" pin="KEY"/>
@@ -6535,6 +6603,17 @@ D15/SW2 (Input)
 <pinref part="GND48" gate="G$1" pin="GND"/>
 <wire x1="144.78" y1="226.06" x2="144.78" y2="223.52" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="IMU1" gate="G$1" pin="GND"/>
+<wire x1="-101.6" y1="48.26" x2="-106.68" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="-106.68" y1="48.26" x2="-106.68" y2="40.64" width="0.1524" layer="91"/>
+<pinref part="GND17" gate="G$1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="C3" gate="G$1" pin="1"/>
+<pinref part="GND18" gate="G$1" pin="GND"/>
+<wire x1="-114.3" y1="40.64" x2="-114.3" y2="43.18" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="SWDIO" class="0">
 <segment>
@@ -6543,8 +6622,8 @@ D15/SW2 (Input)
 <label x="-22.86" y="238.76" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="-15.24" y1="45.72" x2="-17.78" y2="45.72" width="0.1524" layer="91"/>
-<label x="-15.24" y="45.72" size="1.27" layer="95" xref="yes"/>
+<wire x1="55.88" y1="48.26" x2="53.34" y2="48.26" width="0.1524" layer="91"/>
+<label x="55.88" y="48.26" size="1.27" layer="95" xref="yes"/>
 <pinref part="CORTEX1" gate="G$1" pin="SWDIO/TMS"/>
 </segment>
 </net>
@@ -6555,8 +6634,8 @@ D15/SW2 (Input)
 <label x="-22.86" y="236.22" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="-15.24" y1="43.18" x2="-17.78" y2="43.18" width="0.1524" layer="91"/>
-<label x="-15.24" y="43.18" size="1.27" layer="95" xref="yes"/>
+<wire x1="55.88" y1="45.72" x2="53.34" y2="45.72" width="0.1524" layer="91"/>
+<label x="55.88" y="45.72" size="1.27" layer="95" xref="yes"/>
 <pinref part="CORTEX1" gate="G$1" pin="SWDCLK/TCK"/>
 </segment>
 </net>
@@ -6598,8 +6677,8 @@ D15/SW2 (Input)
 <pinref part="SW4" gate="G$1" pin="A"/>
 </segment>
 <segment>
-<wire x1="-15.24" y1="35.56" x2="-17.78" y2="35.56" width="0.1524" layer="91"/>
-<label x="-15.24" y="35.56" size="1.27" layer="95" xref="yes"/>
+<wire x1="55.88" y1="38.1" x2="53.34" y2="38.1" width="0.1524" layer="91"/>
+<label x="55.88" y="38.1" size="1.27" layer="95" xref="yes"/>
 <pinref part="CORTEX1" gate="G$1" pin="!RESET"/>
 </segment>
 </net>
@@ -6628,8 +6707,8 @@ D15/SW2 (Input)
 <label x="-22.86" y="226.06" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="-15.24" y1="40.64" x2="-17.78" y2="40.64" width="0.1524" layer="91"/>
-<label x="-15.24" y="40.64" size="1.27" layer="95" xref="yes"/>
+<wire x1="55.88" y1="43.18" x2="53.34" y2="43.18" width="0.1524" layer="91"/>
+<label x="55.88" y="43.18" size="1.27" layer="95" xref="yes"/>
 <pinref part="CORTEX1" gate="G$1" pin="SWO/TDO"/>
 </segment>
 </net>
@@ -6672,9 +6751,9 @@ D15/SW2 (Input)
 <pinref part="SUPPLY4" gate="G$1" pin="3.3V"/>
 </segment>
 <segment>
-<wire x1="-50.8" y1="45.72" x2="-53.34" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="48.26" x2="17.78" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="SUPPLY5" gate="G$1" pin="3.3V"/>
-<wire x1="-53.34" y1="45.72" x2="-53.34" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="48.26" x2="17.78" y2="50.8" width="0.1524" layer="91"/>
 <pinref part="CORTEX1" gate="G$1" pin="VCC"/>
 </segment>
 <segment>
@@ -6750,6 +6829,17 @@ D15/SW2 (Input)
 <pinref part="R2" gate="G$1" pin="2"/>
 <pinref part="SUPPLY7" gate="G$1" pin="3.3V"/>
 </segment>
+<segment>
+<pinref part="IMU1" gate="G$1" pin="VCC"/>
+<wire x1="-101.6" y1="43.18" x2="-104.14" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="-104.14" y1="43.18" x2="-104.14" y2="50.8" width="0.1524" layer="91"/>
+<pinref part="SUPPLY18" gate="G$1" pin="3.3V"/>
+</segment>
+<segment>
+<pinref part="C3" gate="G$1" pin="2"/>
+<pinref part="SUPPLY19" gate="G$1" pin="3.3V"/>
+<wire x1="-114.3" y1="53.34" x2="-114.3" y2="50.8" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="SDA" class="0">
 <segment>
@@ -6767,6 +6857,11 @@ D15/SW2 (Input)
 <wire x1="-129.54" y1="261.62" x2="-129.54" y2="259.08" width="0.1524" layer="91"/>
 <label x="-129.54" y="259.08" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="IMU1" gate="G$1" pin="SDA"/>
+<wire x1="-76.2" y1="48.26" x2="-73.66" y2="48.26" width="0.1524" layer="91"/>
+<label x="-73.66" y="48.26" size="1.27" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="SCL" class="0">
 <segment>
@@ -6783,6 +6878,11 @@ D15/SW2 (Input)
 <pinref part="R2" gate="G$1" pin="1"/>
 <wire x1="-119.38" y1="261.62" x2="-119.38" y2="259.08" width="0.1524" layer="91"/>
 <label x="-119.38" y="259.08" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="IMU1" gate="G$1" pin="SCL"/>
+<wire x1="-76.2" y1="43.18" x2="-73.66" y2="43.18" width="0.1524" layer="91"/>
+<label x="-73.66" y="43.18" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="P0.09/NFC1" class="0">
@@ -6873,7 +6973,7 @@ D15/SW2 (Input)
 </net>
 <net name="N$14" class="0">
 <segment>
-<wire x1="-15.24" y1="38.1" x2="-17.78" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="40.64" x2="53.34" y2="40.64" width="0.1524" layer="91"/>
 <pinref part="CORTEX1" gate="G$1" pin="NC/TDI"/>
 </segment>
 </net>
